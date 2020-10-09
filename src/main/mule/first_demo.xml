@@ -11,4 +11,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener doc:name="Listener" doc:id="fc08d3bf-ae0b-4db2-ae8a-3b92628e2d6f" config-ref="HTTP_Listener_config" path="/demo"/>
 		<logger level="INFO" doc:name="Logger" doc:id="73d1d6c7-3020-4994-bf3e-73fd007a53b9" />
 	</flow>
+	<flow name="first_demoFlow1" doc:id="c38ef7a1-d64f-4427-aa17-c66f81f4f39a" >
+		<logger level="INFO" doc:name="Logger" doc:id="47adb94e-f784-478f-983c-a6bcc3efa486" />
+	</flow>
 </mule>
